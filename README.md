@@ -1,2 +1,2 @@
 # IC-Contest
-The implementation of IC contest 
+The implementation of IC Design Contest 
