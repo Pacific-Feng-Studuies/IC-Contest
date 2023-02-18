@@ -1,0 +1,11 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+testfixture.v
+LCD_CTRL_syn.v
+-v
+tsmc13.v
++define+SDF
++define+tb3
++access+r

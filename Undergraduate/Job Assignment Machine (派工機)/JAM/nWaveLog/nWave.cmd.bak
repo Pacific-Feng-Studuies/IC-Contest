@@ -1,0 +1,237 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 {/home/B073011012/MF_Hsieh/JAM/JAM.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_JAM"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_JAM/f1"
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_JAM/f1/cur_ans0\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans1\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans2\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans3\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans4\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans5\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans6\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans7\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 4 5 6 7 8 )} 
+wvSetPosition -win $_nWave1 {("G1" 8)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 9816233581.342352 10078980732.877211
+wvZoom -win $_nWave1 9996684278.545959 10001879071.344255
+wvZoom -win $_nWave1 9999981701.653179 10000014135.323095
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 0.000000 1744641086.191467
+wvZoom -win $_nWave1 0.000000 479277051.773722
+wvZoom -win $_nWave1 0.000000 138646223.093751
+wvZoom -win $_nWave1 0.000000 39097946.366708
+wvZoom -win $_nWave1 16640020.878235 17413029.183092
+wvZoom -win $_nWave1 17025318.462024 17035775.390186
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_JAM"
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_JAM/f1/cur_ans0\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans1\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans2\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans3\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans4\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans5\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans6\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans7\[2:0\]} \
+{/testfixture/u_JAM/state\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 17030590.451291 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 11577.701939 -snap {("G1" 6)}
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_JAM/f1/cur_ans0\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans1\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans2\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans3\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans4\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans5\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans6\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans7\[2:0\]} \
+{/testfixture/u_JAM/state\[2:0\]} \
+{/testfixture/u_JAM/CLK} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSetPosition -win $_nWave1 {("G1" 10)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_JAM/f1"
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_JAM/f1/cur_ans0\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans1\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans2\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans3\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans4\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans5\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans6\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans7\[2:0\]} \
+{/testfixture/u_JAM/state\[2:0\]} \
+{/testfixture/u_JAM/CLK} \
+{/testfixture/u_JAM/f1/cs_per\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSelectSignal -win $_nWave1 {( "G1" 11 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvZoomIn -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_JAM/f1/cur_ans0\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans1\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans2\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans3\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans4\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans5\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans6\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans7\[2:0\]} \
+{/testfixture/u_JAM/state\[2:0\]} \
+{/testfixture/u_JAM/CLK} \
+{/testfixture/u_JAM/f1/cs_per\[3:0\]} \
+{/testfixture/u_JAM/f1/change_pos\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSetCursor -win $_nWave1 8487.413076 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 10576.622448 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 11664.752330 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 12404.680649 -snap {("G1" 8)}
+wvSetCursor -win $_nWave1 13449.285336 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 16365.473418 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 17497.128495 -snap {("G1" 7)}
+wvSetCursor -win $_nWave1 8052.161123 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 7878.060342 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 12578.781430 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 18324.107205 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 7399.283194 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 12491.731040 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 18454.682791 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 17540.653690 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 18280.582010 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 17192.452128 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 17453.603300 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 12404.680649 -snap {("G1" 11)}
+wvSetCursor -win $_nWave1 13144.608969 -snap {("G1" 11)}
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_JAM/f1/cur_ans0\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans1\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans2\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans3\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans4\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans5\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans6\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans7\[2:0\]} \
+{/testfixture/u_JAM/state\[2:0\]} \
+{/testfixture/u_JAM/CLK} \
+{/testfixture/u_JAM/f1/cs_per\[3:0\]} \
+{/testfixture/u_JAM/f1/change_pos\[2:0\]} \
+{/testfixture/u_JAM/f1/change} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 13 )} 
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetCursor -win $_nWave1 14667.990803 -snap {("G1" 13)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/READ_PATTERN"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_JAM"
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_JAM/f1/cur_ans0\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans1\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans2\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans3\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans4\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans5\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans6\[2:0\]} \
+{/testfixture/u_JAM/f1/cur_ans7\[2:0\]} \
+{/testfixture/u_JAM/state\[2:0\]} \
+{/testfixture/u_JAM/CLK} \
+{/testfixture/u_JAM/f1/cs_per\[3:0\]} \
+{/testfixture/u_JAM/f1/change_pos\[2:0\]} \
+{/testfixture/u_JAM/f1/change} \
+{/testfixture/u_JAM/start} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 14 )} 
+wvSetPosition -win $_nWave1 {("G1" 14)}
+wvSetCursor -win $_nWave1 13492.810531 -snap {("G1" 13)}
+wvExit

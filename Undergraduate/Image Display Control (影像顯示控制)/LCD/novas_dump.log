@@ -1,0 +1,155 @@
+ncsim(64) 15.20-s039
+Linux 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+CPU cores: 4
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+USER=B073011012
+LOGNAME=B073011012
+HOME=/home/B073011012
+PATH=/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/bin/64bit:/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/bin:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+MAIL=/var/spool/mail/B073011012
+SHELL=/bin/tcsh
+SSH_CLIENT=140.117.111.62 59906 22
+SSH_CONNECTION=140.117.111.62 59906 140.117.165.102 22
+SSH_TTY=/dev/pts/2
+TERM=xterm
+DISPLAY=localhost:10.0
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SELINUX_USE_CURRENT_RANGE=
+XDG_SESSION_ID=8957
+XDG_RUNTIME_DIR=/run/user/1048
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+SHLVL=1
+PWD=/home/B073011012/MF_Hsieh/LCD
+GROUP=B073011012
+HOST=tiffany.ee.nsysu.edu.tw
+REMOTEHOST=140.117.111.62
+HOSTNAME=tiffany.ee.nsysu.edu.tw
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LANG=en_US.UTF-8
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LM_LICENSE_FILE=5280@lstc:26585@lsncku:
+SYNTHESIS=/usr/cad/synopsys/synthesis/cur
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+MANPATH=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+LD_LIBRARY_PATH=/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/lib/64bit:/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/lib64:/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/lib::/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/:/lib64:/usr/lib64:/usr/local/lib64
+SHLIB_PATH=/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/
+_IRUNROOT_=/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx8664.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=testfixture.v
+argv[2]=LCD_CTRL_syn.v
+argv[3]=-v
+argv[4]=tsmc13.v
+argv[5]=+define+SDF
+argv[6]=+define+tb3
+argv[7]=+access+r
+69 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.030 user,  213.02M sys,  0.00M vm
+70 VC callback profile - scalar:0 vector:0
+71 Fri Apr 15 00:40:06 2022
+72 pliAppInit
+73 FSDB_GATE is disabled.
+74 Enable Parallel Dumping.
+75 pliAppMiscSet: New Sim Round
+76 pliEntryInit
+77 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+78 argv[0]: LCD_CTRL.fsdb
+79 FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux x86_64/64bit, 02/09/2020
+80 (C) 1996 - 2020 by Synopsys, Inc.
+81 sps_call_fsdbDumpfile at 0 : /home/B073011012/MF_Hsieh/LCD/testfixture.v(79)
+82 argv[0]: LCD_CTRL.fsdb
+83 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+84 *Verdi* : Create FSDB file 'LCD_CTRL.fsdb'
+85 sps_call_fsdbDumpvars at 0 : /home/B073011012/MF_Hsieh/LCD/testfixture.v(80)
+86 *Verdi* : Begin traversing the scopes, layer (0).
+87 Cell instance `test.LCD_CTRL.U558'.
+88 *Verdi* : End of traversing.
+89 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.200 user,  324.57M sys,  0.00M vm
+                   incr: 0.010 sys,  0.170 user,  19.96M sys,  0.00M vm
+                   accu: 0.010 sys,  0.170 user,  19.96M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.170 user,  19.96M sys,  0.00M vm
+
+          Count usage: 39102 var,  12649 idcode,  12649 callback
+                 incr: 39102 var,  12649 idcode,  12649 callback
+                 accu: 39102 var,  12649 idcode,  12649 callback
+            accu incr: 39102 var,  12649 idcode,  12649 callback
+90 VC callback profile - scalar:0 vector:0
+91 Fri Apr 15 00:40:07 2022
+92 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.040 sys,  0.210 user,  325.62M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  1.05M sys,  0.00M vm
+                   accu: 0.010 sys,  0.180 user,  21.01M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  1.05M sys,  0.00M vm
+
+          Count usage: 39102 var,  12649 idcode,  12649 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 39102 var,  12649 idcode,  12649 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+93 VC callback profile - scalar:12639 vector:10
+94 Fri Apr 15 00:40:07 2022
+95 sps_call_fsdbDumpMDA at 0 : /home/B073011012/MF_Hsieh/LCD/testfixture.v(81)
+96 *Verdi* : Begin traversing the MDAs, layer (0).
+97 *Verdi* : Enable +mda and +packedmda dumping.
+98 Cell instance `test.LCD_CTRL.U558'.
+99 *Verdi* : End of traversing the MDAs.
+100 fsdbDumpMDA traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.260 user,  325.75M sys,  0.00M vm
+                   incr: 0.000 sys,  0.050 user,  0.14M sys,  0.00M vm
+                   accu: 0.000 sys,  0.050 user,  0.14M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.050 user,  0.14M sys,  0.00M vm
+
+          Count usage: 39340 var,  12887 idcode,  12887 callback
+                 incr: 238 var,  238 idcode,  238 callback
+                 accu: 238 var,  238 idcode,  238 callback
+            accu incr: 238 var,  238 idcode,  238 callback
+101 VC callback profile - scalar:12639 vector:10
+102 Fri Apr 15 00:40:07 2022
+103 fsdbDumpMDA: profile - 
+          CPU/Mem usage: 0.040 sys,  0.260 user,  325.75M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+                   accu: 0.000 sys,  0.050 user,  0.14M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+
+          Count usage: 39340 var,  12887 idcode,  12887 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 238 var,  238 idcode,  238 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+104 VC callback profile - scalar:12639 vector:248
+105 Fri Apr 15 00:40:07 2022
+106 End of simulation at 2237667
+107 VC callback profile - scalar:416978 vector:596
+108 Fri Apr 15 00:40:07 2022
+109 Begin FSDB profile info:
+110 FSDB Writer : bc1(416978) bcn(596) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.185398) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+111 End FSDB profile info
+112 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:2 BlockUsed:4
+113                        ProduceTime:0.472501701 ConsumerTime:0.033189867 Buffer:64MB
+114 SimExit
+115 Sim process exit

@@ -1,0 +1,14 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+Full_Permutation,Top_Level,rst,INPUT,1,-,-,-
+Full_Permutation,Top_Level,clk,INPUT,1,-,-,-
+Full_Permutation,Top_Level,ns,INPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out0,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out1,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out2,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out3,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out4,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out5,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out6,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,out7,OUTPUT,3,[2:0],-,-
+Full_Permutation,Top_Level,fin_one,OUTPUT,1,-,-,-
+Full_Permutation,Top_Level,fin_per,OUTPUT,1,-,-,-

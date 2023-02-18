@@ -1,0 +1,2853 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Apr 15, 2022 at 00:40:05 CST
+ncverilog
+	testfixture.v
+	LCD_CTRL_syn.v
+	-v
+	tsmc13.v
+	+define+SDF
+	+define+tb3
+	+access+r
+file: testfixture.v
+	module worklib.test:v
+		errors: 0, warnings: 0
+	module worklib.IROM:v
+		errors: 0, warnings: 0
+	module worklib.IRAM:v
+		errors: 0, warnings: 0
+file: LCD_CTRL_syn.v
+	module worklib.LCD_CTRL_DW01_add_2:v
+		errors: 0, warnings: 0
+	module worklib.LCD_CTRL_DW01_add_1:v
+		errors: 0, warnings: 0
+	module worklib.LCD_CTRL_DW01_add_0:v
+		errors: 0, warnings: 0
+	module worklib.LCD_CTRL:v
+		errors: 0, warnings: 0
+		Caching library 'tsmc13' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  EDFFX1 \img_reg[38][7]  ( .D(n4915), .E(n1670), .CK(clk), .Q(\img[38][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,935|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][7]  ( .D(n4919), .E(n1547), .CK(clk), .Q(\img[42][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,937|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][7]  ( .D(n4923), .E(n1427), .CK(clk), .Q(\img[46][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,939|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][7]  ( .D(n4911), .E(n1790), .CK(clk), .Q(\img[34][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,941|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][7]  ( .D(n4939), .E(n929), .CK(clk), .Q(\img[62][7] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,943|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][7]  ( .D(n4912), .E(n1760), .CK(clk), .Q(\img[35][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,944|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][7]  ( .D(n4916), .E(n1638), .CK(clk), .Q(\img[39][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,946|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][7]  ( .D(n4935), .E(n1057), .CK(clk), .Q(\img[58][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,948|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][7]  ( .D(n4920), .E(n1517), .CK(clk), .Q(\img[43][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,950|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][7]  ( .D(n4924), .E(n1395), .CK(clk), .Q(\img[47][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,952|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][7]  ( .D(n4936), .E(n1025), .CK(clk), .Q(\img[59][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,954|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][7]  ( .D(n4940), .E(n896), .CK(clk), .Q(\img[63][7] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,956|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][7]  ( .D(n4931), .E(n1184), .CK(clk), .Q(\img[54][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,957|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][7]  ( .D(n4932), .E(n1152), .CK(clk), .Q(\img[55][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,959|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][7]  ( .D(n4927), .E(n1304), .CK(clk), .Q(\img[50][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,961|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][7]  ( .D(n4928), .E(n1274), .CK(clk), .Q(\img[51][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,963|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][7]  ( .D(n4910), .E(n1820), .CK(clk), .Q(\img[33][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,965|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][7]  ( .D(n4914), .E(n1700), .CK(clk), .Q(\img[37][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,967|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][7]  ( .D(n4879), .E(n2762), .CK(clk), .Q(\img[2][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,969|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][7]  ( .D(n4918), .E(n1577), .CK(clk), .Q(\img[41][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,970|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][7]  ( .D(n4922), .E(n1457), .CK(clk), .Q(\img[45][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,972|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][7]  ( .D(n4926), .E(n1334), .CK(clk), .Q(\img[49][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,974|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][7]  ( .D(n4930), .E(n1214), .CK(clk), .Q(\img[53][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,976|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][7]  ( .D(n4934), .E(n1089), .CK(clk), .Q(\img[57][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,978|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][7]  ( .D(n4938), .E(n961), .CK(clk), .Q(\img[61][7] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,980|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][7]  ( .D(n4883), .E(n2639), .CK(clk), .Q(\img[6][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,981|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][7]  ( .D(n4895), .E(n2275), .CK(clk), .Q(\img[18][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,982|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][7]  ( .D(n4887), .E(n2516), .CK(clk), .Q(\img[10][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,984|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][7]  ( .D(n4891), .E(n2396), .CK(clk), .Q(\img[14][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,986|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][7]  ( .D(n4880), .E(n2732), .CK(clk), .Q(\img[3][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,988|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][7]  ( .D(n4909), .E(n1850), .CK(clk), .Q(\img[32][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,989|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][7]  ( .D(n4899), .E(n2155), .CK(clk), .Q(\img[22][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,991|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][7]  ( .D(n4913), .E(n1730), .CK(clk), .Q(\img[36][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,993|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][7]  ( .D(n4917), .E(n1607), .CK(clk), .Q(\img[40][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,995|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][7]  ( .D(n4921), .E(n1487), .CK(clk), .Q(\img[44][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,997|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][7]  ( .D(n4925), .E(n1364), .CK(clk), .Q(\img[48][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,999|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][7]  ( .D(n4903), .E(n2033), .CK(clk), .Q(\img[26][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1001|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][7]  ( .D(n4884), .E(n2607), .CK(clk), .Q(\img[7][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1003|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][7]  ( .D(n4907), .E(n1913), .CK(clk), .Q(\img[30][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1004|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][7]  ( .D(n4929), .E(n1244), .CK(clk), .Q(\img[52][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1006|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][7]  ( .D(n4896), .E(n2245), .CK(clk), .Q(\img[19][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1008|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][7]  ( .D(n4933), .E(n1120), .CK(clk), .Q(\img[56][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1010|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][7]  ( .D(n4888), .E(n2486), .CK(clk), .Q(\img[11][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1012|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][7]  ( .D(n4937), .E(n993), .CK(clk), .Q(\img[60][7] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1014|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][7]  ( .D(n4892), .E(n2365), .CK(clk), .Q(\img[15][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1015|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][7]  ( .D(n4900), .E(n2123), .CK(clk), .Q(\img[23][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1017|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][7]  ( .D(n4904), .E(n2003), .CK(clk), .Q(\img[27][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1019|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][7]  ( .D(n4908), .E(n1881), .CK(clk), .Q(\img[31][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1021|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][6]  ( .D(n4987), .E(n1427), .CK(clk), .Q(\img[46][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1023|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][5]  ( .D(n5051), .E(n1427), .CK(clk), .Q(\img[46][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1025|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][6]  ( .D(n4988), .E(n1395), .CK(clk), .Q(\img[47][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1027|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][6]  ( .D(n4983), .E(n1547), .CK(clk), .Q(\img[42][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1029|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][5]  ( .D(n5052), .E(n1395), .CK(clk), .Q(\img[47][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1031|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][5]  ( .D(n5047), .E(n1547), .CK(clk), .Q(\img[42][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1033|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][6]  ( .D(n4984), .E(n1517), .CK(clk), .Q(\img[43][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1035|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[38][6]  ( .D(n4979), .E(n1670), .CK(clk), .Q(\img[38][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1037|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][5]  ( .D(n5048), .E(n1517), .CK(clk), .Q(\img[43][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1039|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[38][5]  ( .D(n5043), .E(n1670), .CK(clk), .Q(\img[38][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1041|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][6]  ( .D(n5003), .E(n929), .CK(clk), .Q(\img[62][6] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1043|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][6]  ( .D(n4980), .E(n1638), .CK(clk), .Q(\img[39][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1044|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][6]  ( .D(n4975), .E(n1790), .CK(clk), .Q(\img[34][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1046|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][5]  ( .D(n5067), .E(n929), .CK(clk), .Q(\img[62][5] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1048|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][5]  ( .D(n5044), .E(n1638), .CK(clk), .Q(\img[39][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1049|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][5]  ( .D(n5039), .E(n1790), .CK(clk), .Q(\img[34][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1051|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][6]  ( .D(n5004), .E(n896), .CK(clk), .Q(\img[63][6] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1053|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][6]  ( .D(n4976), .E(n1760), .CK(clk), .Q(\img[35][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1054|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][6]  ( .D(n4999), .E(n1057), .CK(clk), .Q(\img[58][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1056|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][5]  ( .D(n5068), .E(n896), .CK(clk), .Q(\img[63][5] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1058|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][5]  ( .D(n5040), .E(n1760), .CK(clk), .Q(\img[35][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1059|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][5]  ( .D(n5063), .E(n1057), .CK(clk), .Q(\img[58][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1061|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][7]  ( .D(n4878), .E(n2792), .CK(clk), .Q(\img[1][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1063|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][6]  ( .D(n5000), .E(n1025), .CK(clk), .Q(\img[59][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1064|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][6]  ( .D(n4995), .E(n1184), .CK(clk), .Q(\img[54][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1066|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][5]  ( .D(n5064), .E(n1025), .CK(clk), .Q(\img[59][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1068|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][7]  ( .D(n4882), .E(n2670), .CK(clk), .Q(\img[5][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1070|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][5]  ( .D(n5059), .E(n1184), .CK(clk), .Q(\img[54][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1071|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][7]  ( .D(n4894), .E(n2305), .CK(clk), .Q(\img[17][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1073|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][6]  ( .D(n4996), .E(n1152), .CK(clk), .Q(\img[55][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1075|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][6]  ( .D(n4991), .E(n1304), .CK(clk), .Q(\img[50][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1077|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][7]  ( .D(n4886), .E(n2546), .CK(clk), .Q(\img[9][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1079|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][7]  ( .D(n4890), .E(n2426), .CK(clk), .Q(\img[13][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1080|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][5]  ( .D(n5060), .E(n1152), .CK(clk), .Q(\img[55][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1082|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][5]  ( .D(n5055), .E(n1304), .CK(clk), .Q(\img[50][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1084|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][6]  ( .D(n4943), .E(n2762), .CK(clk), .Q(\img[2][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1086|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][7]  ( .D(n4898), .E(n2185), .CK(clk), .Q(\img[21][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1087|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][6]  ( .D(n4992), .E(n1274), .CK(clk), .Q(\img[51][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1089|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][7]  ( .D(n4877), .E(n2890), .CK(clk), .Q(\img[0][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1091|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][5]  ( .D(n5056), .E(n1274), .CK(clk), .Q(\img[51][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1092|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][7]  ( .D(n4902), .E(n2063), .CK(clk), .Q(\img[25][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1094|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][6]  ( .D(n4947), .E(n2639), .CK(clk), .Q(\img[6][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1096|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][7]  ( .D(n4906), .E(n1943), .CK(clk), .Q(\img[29][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1097|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][6]  ( .D(n4959), .E(n2275), .CK(clk), .Q(\img[18][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1099|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][7]  ( .D(n4881), .E(n2701), .CK(clk), .Q(\img[4][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1101|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][6]  ( .D(n4951), .E(n2516), .CK(clk), .Q(\img[10][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1102|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][7]  ( .D(n4893), .E(n2335), .CK(clk), .Q(\img[16][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1104|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][6]  ( .D(n4955), .E(n2396), .CK(clk), .Q(\img[14][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1106|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][6]  ( .D(n4944), .E(n2732), .CK(clk), .Q(\img[3][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1108|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][7]  ( .D(n4885), .E(n2576), .CK(clk), .Q(\img[8][7] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1109|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][7]  ( .D(n4889), .E(n2456), .CK(clk), .Q(\img[12][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1110|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][6]  ( .D(n4963), .E(n2155), .CK(clk), .Q(\img[22][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1112|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][7]  ( .D(n4897), .E(n2215), .CK(clk), .Q(\img[20][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1114|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][6]  ( .D(n4948), .E(n2607), .CK(clk), .Q(\img[7][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1116|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][6]  ( .D(n4967), .E(n2033), .CK(clk), .Q(\img[26][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1117|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][6]  ( .D(n4971), .E(n1913), .CK(clk), .Q(\img[30][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1119|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][7]  ( .D(n4901), .E(n2093), .CK(clk), .Q(\img[24][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1121|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][5]  ( .D(n5007), .E(n2762), .CK(clk), .Q(\img[2][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1123|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][6]  ( .D(n4960), .E(n2245), .CK(clk), .Q(\img[19][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1124|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][6]  ( .D(n4952), .E(n2486), .CK(clk), .Q(\img[11][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1126|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][7]  ( .D(n4905), .E(n1973), .CK(clk), .Q(\img[28][7] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1128|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][6]  ( .D(n4956), .E(n2365), .CK(clk), .Q(\img[15][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1130|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][6]  ( .D(n4986), .E(n1457), .CK(clk), .Q(\img[45][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1132|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][5]  ( .D(n5011), .E(n2639), .CK(clk), .Q(\img[6][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1134|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][6]  ( .D(n4964), .E(n2123), .CK(clk), .Q(\img[23][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1135|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][5]  ( .D(n5023), .E(n2275), .CK(clk), .Q(\img[18][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1137|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][5]  ( .D(n5015), .E(n2516), .CK(clk), .Q(\img[10][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1139|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][6]  ( .D(n4968), .E(n2003), .CK(clk), .Q(\img[27][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1141|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][5]  ( .D(n5050), .E(n1457), .CK(clk), .Q(\img[45][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1143|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][6]  ( .D(n4982), .E(n1577), .CK(clk), .Q(\img[41][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1145|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][5]  ( .D(n5019), .E(n2396), .CK(clk), .Q(\img[14][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1147|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][6]  ( .D(n4972), .E(n1881), .CK(clk), .Q(\img[31][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1149|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][5]  ( .D(n5008), .E(n2732), .CK(clk), .Q(\img[3][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1151|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][6]  ( .D(n4985), .E(n1487), .CK(clk), .Q(\img[44][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1152|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][5]  ( .D(n5046), .E(n1577), .CK(clk), .Q(\img[41][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1154|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][5]  ( .D(n5027), .E(n2155), .CK(clk), .Q(\img[22][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1156|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][6]  ( .D(n4978), .E(n1700), .CK(clk), .Q(\img[37][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1158|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][5]  ( .D(n5012), .E(n2607), .CK(clk), .Q(\img[7][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1160|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][5]  ( .D(n5031), .E(n2033), .CK(clk), .Q(\img[26][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1161|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][6]  ( .D(n4981), .E(n1607), .CK(clk), .Q(\img[40][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1163|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][5]  ( .D(n5042), .E(n1700), .CK(clk), .Q(\img[37][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1165|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][5]  ( .D(n5035), .E(n1913), .CK(clk), .Q(\img[30][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1167|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][5]  ( .D(n5024), .E(n2245), .CK(clk), .Q(\img[19][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1169|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][5]  ( .D(n5016), .E(n2486), .CK(clk), .Q(\img[11][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1171|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][6]  ( .D(n5002), .E(n961), .CK(clk), .Q(\img[61][6] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1173|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][6]  ( .D(n4974), .E(n1820), .CK(clk), .Q(\img[33][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1174|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][5]  ( .D(n5020), .E(n2365), .CK(clk), .Q(\img[15][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1176|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][6]  ( .D(n4977), .E(n1730), .CK(clk), .Q(\img[36][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1178|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][5]  ( .D(n5066), .E(n961), .CK(clk), .Q(\img[61][5] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1180|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][5]  ( .D(n5038), .E(n1820), .CK(clk), .Q(\img[33][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1181|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][5]  ( .D(n5045), .E(n1607), .CK(clk), .Q(\img[40][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1183|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][5]  ( .D(n5049), .E(n1487), .CK(clk), .Q(\img[44][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1185|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][5]  ( .D(n5028), .E(n2123), .CK(clk), .Q(\img[23][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1187|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][5]  ( .D(n5041), .E(n1730), .CK(clk), .Q(\img[36][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1189|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][6]  ( .D(n4998), .E(n1089), .CK(clk), .Q(\img[57][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1191|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][6]  ( .D(n5001), .E(n993), .CK(clk), .Q(\img[60][6] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1193|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][6]  ( .D(n4973), .E(n1850), .CK(clk), .Q(\img[32][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1194|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][5]  ( .D(n5032), .E(n2003), .CK(clk), .Q(\img[27][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1196|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][5]  ( .D(n5062), .E(n1089), .CK(clk), .Q(\img[57][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1198|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][5]  ( .D(n5036), .E(n1881), .CK(clk), .Q(\img[31][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1200|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][5]  ( .D(n5065), .E(n993), .CK(clk), .Q(\img[60][5] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1202|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][5]  ( .D(n5037), .E(n1850), .CK(clk), .Q(\img[32][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1203|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][6]  ( .D(n4994), .E(n1214), .CK(clk), .Q(\img[53][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1205|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][6]  ( .D(n4997), .E(n1120), .CK(clk), .Q(\img[56][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1207|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][5]  ( .D(n5058), .E(n1214), .CK(clk), .Q(\img[53][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1209|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][5]  ( .D(n5061), .E(n1120), .CK(clk), .Q(\img[56][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1211|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][6]  ( .D(n4990), .E(n1334), .CK(clk), .Q(\img[49][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1213|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][6]  ( .D(n4993), .E(n1244), .CK(clk), .Q(\img[52][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1215|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][5]  ( .D(n5054), .E(n1334), .CK(clk), .Q(\img[49][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1217|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][5]  ( .D(n5057), .E(n1244), .CK(clk), .Q(\img[52][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1219|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][6]  ( .D(n4989), .E(n1364), .CK(clk), .Q(\img[48][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1221|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][5]  ( .D(n5053), .E(n1364), .CK(clk), .Q(\img[48][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1223|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][6]  ( .D(n4942), .E(n2792), .CK(clk), .Q(\img[1][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1225|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][6]  ( .D(n4946), .E(n2670), .CK(clk), .Q(\img[5][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1226|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][6]  ( .D(n4958), .E(n2305), .CK(clk), .Q(\img[17][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1227|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][6]  ( .D(n4950), .E(n2546), .CK(clk), .Q(\img[9][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1229|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][6]  ( .D(n4954), .E(n2426), .CK(clk), .Q(\img[13][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1230|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][6]  ( .D(n4962), .E(n2185), .CK(clk), .Q(\img[21][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1232|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][6]  ( .D(n4941), .E(n2890), .CK(clk), .Q(\img[0][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1234|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][6]  ( .D(n4966), .E(n2063), .CK(clk), .Q(\img[25][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1235|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][6]  ( .D(n4970), .E(n1943), .CK(clk), .Q(\img[29][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1237|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][5]  ( .D(n5006), .E(n2792), .CK(clk), .Q(\img[1][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1239|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][6]  ( .D(n4945), .E(n2701), .CK(clk), .Q(\img[4][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1240|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][6]  ( .D(n4957), .E(n2335), .CK(clk), .Q(\img[16][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1241|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][6]  ( .D(n4949), .E(n2576), .CK(clk), .Q(\img[8][6] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1243|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][5]  ( .D(n5010), .E(n2670), .CK(clk), .Q(\img[5][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1244|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][6]  ( .D(n4953), .E(n2456), .CK(clk), .Q(\img[12][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1245|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][5]  ( .D(n5022), .E(n2305), .CK(clk), .Q(\img[17][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1247|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][5]  ( .D(n5014), .E(n2546), .CK(clk), .Q(\img[9][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1249|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][6]  ( .D(n4961), .E(n2215), .CK(clk), .Q(\img[20][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1250|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][4]  ( .D(n5115), .E(n1427), .CK(clk), .Q(\img[46][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1252|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][5]  ( .D(n5018), .E(n2426), .CK(clk), .Q(\img[13][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1254|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][6]  ( .D(n4965), .E(n2093), .CK(clk), .Q(\img[24][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1256|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][5]  ( .D(n5026), .E(n2185), .CK(clk), .Q(\img[21][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1258|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][6]  ( .D(n4969), .E(n1973), .CK(clk), .Q(\img[28][6] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1260|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][5]  ( .D(n5005), .E(n2890), .CK(clk), .Q(\img[0][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1262|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][4]  ( .D(n5116), .E(n1395), .CK(clk), .Q(\img[47][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1263|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][4]  ( .D(n5111), .E(n1547), .CK(clk), .Q(\img[42][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1265|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][5]  ( .D(n5030), .E(n2063), .CK(clk), .Q(\img[25][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1267|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][5]  ( .D(n5034), .E(n1943), .CK(clk), .Q(\img[29][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1269|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][5]  ( .D(n5009), .E(n2701), .CK(clk), .Q(\img[4][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1271|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][4]  ( .D(n5112), .E(n1517), .CK(clk), .Q(\img[43][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1272|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[38][4]  ( .D(n5107), .E(n1670), .CK(clk), .Q(\img[38][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1274|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][5]  ( .D(n5021), .E(n2335), .CK(clk), .Q(\img[16][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1276|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][5]  ( .D(n5013), .E(n2576), .CK(clk), .Q(\img[8][5] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1278|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][5]  ( .D(n5017), .E(n2456), .CK(clk), .Q(\img[12][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1279|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][4]  ( .D(n5131), .E(n929), .CK(clk), .Q(\img[62][4] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1281|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][4]  ( .D(n5108), .E(n1638), .CK(clk), .Q(\img[39][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1282|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][4]  ( .D(n5103), .E(n1790), .CK(clk), .Q(\img[34][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1284|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][5]  ( .D(n5025), .E(n2215), .CK(clk), .Q(\img[20][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1286|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][4]  ( .D(n5071), .E(n2762), .CK(clk), .Q(\img[2][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1288|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][4]  ( .D(n5132), .E(n896), .CK(clk), .Q(\img[63][4] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1289|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][5]  ( .D(n5029), .E(n2093), .CK(clk), .Q(\img[24][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1290|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][4]  ( .D(n5104), .E(n1760), .CK(clk), .Q(\img[35][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1292|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][4]  ( .D(n5127), .E(n1057), .CK(clk), .Q(\img[58][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1294|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][5]  ( .D(n5033), .E(n1973), .CK(clk), .Q(\img[28][5] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1296|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][4]  ( .D(n5075), .E(n2639), .CK(clk), .Q(\img[6][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1298|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][4]  ( .D(n5128), .E(n1025), .CK(clk), .Q(\img[59][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1299|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][4]  ( .D(n5087), .E(n2275), .CK(clk), .Q(\img[18][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1301|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][4]  ( .D(n5123), .E(n1184), .CK(clk), .Q(\img[54][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1303|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][4]  ( .D(n5079), .E(n2516), .CK(clk), .Q(\img[10][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1305|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][4]  ( .D(n5083), .E(n2396), .CK(clk), .Q(\img[14][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1307|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][4]  ( .D(n5072), .E(n2732), .CK(clk), .Q(\img[3][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1309|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][4]  ( .D(n5124), .E(n1152), .CK(clk), .Q(\img[55][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1310|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][4]  ( .D(n5119), .E(n1304), .CK(clk), .Q(\img[50][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1312|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][4]  ( .D(n5091), .E(n2155), .CK(clk), .Q(\img[22][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1314|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][4]  ( .D(n5076), .E(n2607), .CK(clk), .Q(\img[7][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1316|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][4]  ( .D(n5095), .E(n2033), .CK(clk), .Q(\img[26][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1317|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][4]  ( .D(n5120), .E(n1274), .CK(clk), .Q(\img[51][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1319|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][4]  ( .D(n5099), .E(n1913), .CK(clk), .Q(\img[30][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1321|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][4]  ( .D(n5088), .E(n2245), .CK(clk), .Q(\img[19][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1323|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][4]  ( .D(n5080), .E(n2486), .CK(clk), .Q(\img[11][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1325|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][4]  ( .D(n5084), .E(n2365), .CK(clk), .Q(\img[15][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1327|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][4]  ( .D(n5092), .E(n2123), .CK(clk), .Q(\img[23][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1329|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][4]  ( .D(n5096), .E(n2003), .CK(clk), .Q(\img[27][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1331|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][4]  ( .D(n5100), .E(n1881), .CK(clk), .Q(\img[31][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1333|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][1]  ( .D(n5295), .E(n1790), .CK(clk), .Q(\img[34][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1335|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][4]  ( .D(n5114), .E(n1457), .CK(clk), .Q(\img[45][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1337|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[38][1]  ( .D(n5299), .E(n1670), .CK(clk), .Q(\img[38][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1339|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][1]  ( .D(n5303), .E(n1547), .CK(clk), .Q(\img[42][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1341|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][1]  ( .D(n5307), .E(n1427), .CK(clk), .Q(\img[46][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1343|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][1]  ( .D(n5311), .E(n1304), .CK(clk), .Q(\img[50][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1345|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][4]  ( .D(n5110), .E(n1577), .CK(clk), .Q(\img[41][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1347|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][1]  ( .D(n5315), .E(n1184), .CK(clk), .Q(\img[54][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1349|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][4]  ( .D(n5113), .E(n1487), .CK(clk), .Q(\img[44][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1351|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][1]  ( .D(n5319), .E(n1057), .CK(clk), .Q(\img[58][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1353|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][1]  ( .D(n5323), .E(n929), .CK(clk), .Q(\img[62][1] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1355|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][1]  ( .D(n5296), .E(n1760), .CK(clk), .Q(\img[35][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1356|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][4]  ( .D(n5106), .E(n1700), .CK(clk), .Q(\img[37][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1358|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][4]  ( .D(n5109), .E(n1607), .CK(clk), .Q(\img[40][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1360|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][1]  ( .D(n5300), .E(n1638), .CK(clk), .Q(\img[39][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1362|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][1]  ( .D(n5304), .E(n1517), .CK(clk), .Q(\img[43][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1364|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][1]  ( .D(n5308), .E(n1395), .CK(clk), .Q(\img[47][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1366|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][1]  ( .D(n5312), .E(n1274), .CK(clk), .Q(\img[51][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1368|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][4]  ( .D(n5130), .E(n961), .CK(clk), .Q(\img[61][4] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1370|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][4]  ( .D(n5102), .E(n1820), .CK(clk), .Q(\img[33][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1371|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][1]  ( .D(n5316), .E(n1152), .CK(clk), .Q(\img[55][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1373|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][4]  ( .D(n5105), .E(n1730), .CK(clk), .Q(\img[36][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1375|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][1]  ( .D(n5320), .E(n1025), .CK(clk), .Q(\img[59][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1377|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][1]  ( .D(n5324), .E(n896), .CK(clk), .Q(\img[63][1] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1379|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][4]  ( .D(n5126), .E(n1089), .CK(clk), .Q(\img[57][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1380|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][4]  ( .D(n5129), .E(n993), .CK(clk), .Q(\img[60][4] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1382|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][4]  ( .D(n5101), .E(n1850), .CK(clk), .Q(\img[32][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1383|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][4]  ( .D(n5122), .E(n1214), .CK(clk), .Q(\img[53][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1385|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][4]  ( .D(n5125), .E(n1120), .CK(clk), .Q(\img[56][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1387|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][4]  ( .D(n5118), .E(n1334), .CK(clk), .Q(\img[49][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1389|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][4]  ( .D(n5121), .E(n1244), .CK(clk), .Q(\img[52][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1391|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][4]  ( .D(n5117), .E(n1364), .CK(clk), .Q(\img[48][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1393|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][4]  ( .D(n5070), .E(n2792), .CK(clk), .Q(\img[1][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1395|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][4]  ( .D(n5074), .E(n2670), .CK(clk), .Q(\img[5][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1396|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][4]  ( .D(n5086), .E(n2305), .CK(clk), .Q(\img[17][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1397|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][4]  ( .D(n5078), .E(n2546), .CK(clk), .Q(\img[9][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1399|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][4]  ( .D(n5082), .E(n2426), .CK(clk), .Q(\img[13][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1400|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][4]  ( .D(n5090), .E(n2185), .CK(clk), .Q(\img[21][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1402|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][4]  ( .D(n5069), .E(n2890), .CK(clk), .Q(\img[0][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1404|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][4]  ( .D(n5094), .E(n2063), .CK(clk), .Q(\img[25][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1405|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][4]  ( .D(n5098), .E(n1943), .CK(clk), .Q(\img[29][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1407|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][4]  ( .D(n5073), .E(n2701), .CK(clk), .Q(\img[4][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1409|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][4]  ( .D(n5085), .E(n2335), .CK(clk), .Q(\img[16][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1410|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][4]  ( .D(n5077), .E(n2576), .CK(clk), .Q(\img[8][4] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1412|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][4]  ( .D(n5081), .E(n2456), .CK(clk), .Q(\img[12][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1413|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][4]  ( .D(n5089), .E(n2215), .CK(clk), .Q(\img[20][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1415|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][4]  ( .D(n5093), .E(n2093), .CK(clk), .Q(\img[24][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1417|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][4]  ( .D(n5097), .E(n1973), .CK(clk), .Q(\img[28][4] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1419|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][1]  ( .D(n5263), .E(n2762), .CK(clk), .Q(\img[2][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1421|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][1]  ( .D(n5294), .E(n1820), .CK(clk), .Q(\img[33][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1422|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][1]  ( .D(n5267), .E(n2639), .CK(clk), .Q(\img[6][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1424|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][1]  ( .D(n5298), .E(n1700), .CK(clk), .Q(\img[37][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1425|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][1]  ( .D(n5279), .E(n2275), .CK(clk), .Q(\img[18][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1427|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][1]  ( .D(n5271), .E(n2516), .CK(clk), .Q(\img[10][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1429|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][1]  ( .D(n5302), .E(n1577), .CK(clk), .Q(\img[41][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1431|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][1]  ( .D(n5306), .E(n1457), .CK(clk), .Q(\img[45][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1433|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][1]  ( .D(n5310), .E(n1334), .CK(clk), .Q(\img[49][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1435|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][1]  ( .D(n5275), .E(n2396), .CK(clk), .Q(\img[14][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1437|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][1]  ( .D(n5264), .E(n2732), .CK(clk), .Q(\img[3][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1439|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][1]  ( .D(n5314), .E(n1214), .CK(clk), .Q(\img[53][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1440|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][1]  ( .D(n5283), .E(n2155), .CK(clk), .Q(\img[22][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1442|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][1]  ( .D(n5318), .E(n1089), .CK(clk), .Q(\img[57][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1444|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][1]  ( .D(n5322), .E(n961), .CK(clk), .Q(\img[61][1] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1446|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][1]  ( .D(n5268), .E(n2607), .CK(clk), .Q(\img[7][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1447|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][1]  ( .D(n5287), .E(n2033), .CK(clk), .Q(\img[26][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1448|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][1]  ( .D(n5291), .E(n1913), .CK(clk), .Q(\img[30][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1450|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][1]  ( .D(n5280), .E(n2245), .CK(clk), .Q(\img[19][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1452|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][1]  ( .D(n5293), .E(n1850), .CK(clk), .Q(\img[32][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1454|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][1]  ( .D(n5272), .E(n2486), .CK(clk), .Q(\img[11][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1456|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][1]  ( .D(n5276), .E(n2365), .CK(clk), .Q(\img[15][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1458|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][1]  ( .D(n5297), .E(n1730), .CK(clk), .Q(\img[36][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1460|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][1]  ( .D(n5301), .E(n1607), .CK(clk), .Q(\img[40][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1462|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][1]  ( .D(n5305), .E(n1487), .CK(clk), .Q(\img[44][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1464|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][1]  ( .D(n5309), .E(n1364), .CK(clk), .Q(\img[48][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1466|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][1]  ( .D(n5284), .E(n2123), .CK(clk), .Q(\img[23][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1468|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][1]  ( .D(n5313), .E(n1244), .CK(clk), .Q(\img[52][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1470|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][1]  ( .D(n5288), .E(n2003), .CK(clk), .Q(\img[27][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1472|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][1]  ( .D(n5317), .E(n1120), .CK(clk), .Q(\img[56][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1474|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][1]  ( .D(n5321), .E(n993), .CK(clk), .Q(\img[60][1] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1476|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][1]  ( .D(n5292), .E(n1881), .CK(clk), .Q(\img[31][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1477|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][0]  ( .D(n5359), .E(n1790), .CK(clk), .Q(\img[34][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1479|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[38][0]  ( .D(n5363), .E(n1670), .CK(clk), .Q(\img[38][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1481|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][0]  ( .D(n5367), .E(n1547), .CK(clk), .Q(\img[42][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1483|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][0]  ( .D(n5371), .E(n1427), .CK(clk), .Q(\img[46][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1485|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][0]  ( .D(n5375), .E(n1304), .CK(clk), .Q(\img[50][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1487|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][0]  ( .D(n5379), .E(n1184), .CK(clk), .Q(\img[54][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1489|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][0]  ( .D(n5383), .E(n1057), .CK(clk), .Q(\img[58][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1491|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][0]  ( .D(n5387), .E(n929), .CK(clk), .Q(\img[62][0] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1493|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][0]  ( .D(n5360), .E(n1760), .CK(clk), .Q(\img[35][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1494|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][0]  ( .D(n5364), .E(n1638), .CK(clk), .Q(\img[39][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1496|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][0]  ( .D(n5368), .E(n1517), .CK(clk), .Q(\img[43][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1498|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][0]  ( .D(n5372), .E(n1395), .CK(clk), .Q(\img[47][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1500|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][0]  ( .D(n5376), .E(n1274), .CK(clk), .Q(\img[51][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1502|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][0]  ( .D(n5380), .E(n1152), .CK(clk), .Q(\img[55][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1504|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][0]  ( .D(n5384), .E(n1025), .CK(clk), .Q(\img[59][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1506|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][0]  ( .D(n5388), .E(n896), .CK(clk), .Q(\img[63][0] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1508|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][1]  ( .D(n5262), .E(n2792), .CK(clk), .Q(\img[1][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1509|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][1]  ( .D(n5266), .E(n2670), .CK(clk), .Q(\img[5][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1510|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][1]  ( .D(n5278), .E(n2305), .CK(clk), .Q(\img[17][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1511|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][1]  ( .D(n5270), .E(n2546), .CK(clk), .Q(\img[9][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1513|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][1]  ( .D(n5274), .E(n2426), .CK(clk), .Q(\img[13][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1514|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][1]  ( .D(n5282), .E(n2185), .CK(clk), .Q(\img[21][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1516|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][1]  ( .D(n5261), .E(n2890), .CK(clk), .Q(\img[0][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1518|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][1]  ( .D(n5286), .E(n2063), .CK(clk), .Q(\img[25][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1519|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][1]  ( .D(n5290), .E(n1943), .CK(clk), .Q(\img[29][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1521|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][1]  ( .D(n5265), .E(n2701), .CK(clk), .Q(\img[4][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1523|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][1]  ( .D(n5277), .E(n2335), .CK(clk), .Q(\img[16][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1524|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][1]  ( .D(n5269), .E(n2576), .CK(clk), .Q(\img[8][1] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1526|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][1]  ( .D(n5273), .E(n2456), .CK(clk), .Q(\img[12][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1527|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][1]  ( .D(n5281), .E(n2215), .CK(clk), .Q(\img[20][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1529|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][1]  ( .D(n5285), .E(n2093), .CK(clk), .Q(\img[24][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1531|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][1]  ( .D(n5289), .E(n1973), .CK(clk), .Q(\img[28][1] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1533|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][0]  ( .D(n5327), .E(n2762), .CK(clk), .Q(\img[2][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1535|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][0]  ( .D(n5358), .E(n1820), .CK(clk), .Q(\img[33][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1536|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][0]  ( .D(n5331), .E(n2639), .CK(clk), .Q(\img[6][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1538|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][0]  ( .D(n5362), .E(n1700), .CK(clk), .Q(\img[37][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1539|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][0]  ( .D(n5343), .E(n2275), .CK(clk), .Q(\img[18][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1541|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][0]  ( .D(n5335), .E(n2516), .CK(clk), .Q(\img[10][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1543|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][0]  ( .D(n5366), .E(n1577), .CK(clk), .Q(\img[41][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1545|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][0]  ( .D(n5370), .E(n1457), .CK(clk), .Q(\img[45][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1547|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][0]  ( .D(n5374), .E(n1334), .CK(clk), .Q(\img[49][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1549|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][0]  ( .D(n5339), .E(n2396), .CK(clk), .Q(\img[14][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1551|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][0]  ( .D(n5328), .E(n2732), .CK(clk), .Q(\img[3][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1553|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][0]  ( .D(n5378), .E(n1214), .CK(clk), .Q(\img[53][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1554|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][0]  ( .D(n5347), .E(n2155), .CK(clk), .Q(\img[22][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1556|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][0]  ( .D(n5382), .E(n1089), .CK(clk), .Q(\img[57][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1558|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][0]  ( .D(n5386), .E(n961), .CK(clk), .Q(\img[61][0] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1560|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][3]  ( .D(n5179), .E(n1427), .CK(clk), .Q(\img[46][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1561|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][0]  ( .D(n5332), .E(n2607), .CK(clk), .Q(\img[7][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1563|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][0]  ( .D(n5351), .E(n2033), .CK(clk), .Q(\img[26][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1564|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][3]  ( .D(n5180), .E(n1395), .CK(clk), .Q(\img[47][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1566|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][0]  ( .D(n5344), .E(n2245), .CK(clk), .Q(\img[19][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1568|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][0]  ( .D(n5357), .E(n1850), .CK(clk), .Q(\img[32][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1570|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][0]  ( .D(n5336), .E(n2486), .CK(clk), .Q(\img[11][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1572|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][3]  ( .D(n5175), .E(n1547), .CK(clk), .Q(\img[42][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1574|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][0]  ( .D(n5340), .E(n2365), .CK(clk), .Q(\img[15][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1576|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][0]  ( .D(n5361), .E(n1730), .CK(clk), .Q(\img[36][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1578|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][0]  ( .D(n5365), .E(n1607), .CK(clk), .Q(\img[40][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1580|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][0]  ( .D(n5369), .E(n1487), .CK(clk), .Q(\img[44][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1582|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][0]  ( .D(n5373), .E(n1364), .CK(clk), .Q(\img[48][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1584|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][0]  ( .D(n5348), .E(n2123), .CK(clk), .Q(\img[23][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1586|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][3]  ( .D(n5176), .E(n1517), .CK(clk), .Q(\img[43][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1588|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[38][3]  ( .D(n5171), .E(n1670), .CK(clk), .Q(\img[38][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1590|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][0]  ( .D(n5377), .E(n1244), .CK(clk), .Q(\img[52][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1592|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][0]  ( .D(n5381), .E(n1120), .CK(clk), .Q(\img[56][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1594|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][0]  ( .D(n5352), .E(n2003), .CK(clk), .Q(\img[27][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1596|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][0]  ( .D(n5385), .E(n993), .CK(clk), .Q(\img[60][0] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1598|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][3]  ( .D(n5195), .E(n929), .CK(clk), .Q(\img[62][3] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1599|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][3]  ( .D(n5172), .E(n1638), .CK(clk), .Q(\img[39][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1600|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][3]  ( .D(n5167), .E(n1790), .CK(clk), .Q(\img[34][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1602|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][3]  ( .D(n5191), .E(n1057), .CK(clk), .Q(\img[58][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1604|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][3]  ( .D(n5196), .E(n896), .CK(clk), .Q(\img[63][3] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1606|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][3]  ( .D(n5168), .E(n1760), .CK(clk), .Q(\img[35][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1607|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][3]  ( .D(n5147), .E(n2396), .CK(clk), .Q(\img[14][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1609|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][3]  ( .D(n5192), .E(n1025), .CK(clk), .Q(\img[59][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1611|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][3]  ( .D(n5187), .E(n1184), .CK(clk), .Q(\img[54][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1613|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][3]  ( .D(n5143), .E(n2516), .CK(clk), .Q(\img[10][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1615|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][3]  ( .D(n5148), .E(n2365), .CK(clk), .Q(\img[15][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1617|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][3]  ( .D(n5188), .E(n1152), .CK(clk), .Q(\img[55][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1619|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][3]  ( .D(n5183), .E(n1304), .CK(clk), .Q(\img[50][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1621|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][3]  ( .D(n5163), .E(n1913), .CK(clk), .Q(\img[30][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1623|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][3]  ( .D(n5139), .E(n2639), .CK(clk), .Q(\img[6][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1625|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][3]  ( .D(n5144), .E(n2486), .CK(clk), .Q(\img[11][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1626|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][3]  ( .D(n5184), .E(n1274), .CK(clk), .Q(\img[51][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1628|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][3]  ( .D(n5135), .E(n2762), .CK(clk), .Q(\img[2][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1630|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][3]  ( .D(n5159), .E(n2033), .CK(clk), .Q(\img[26][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1631|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][3]  ( .D(n5164), .E(n1881), .CK(clk), .Q(\img[31][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1633|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][3]  ( .D(n5140), .E(n2607), .CK(clk), .Q(\img[7][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1635|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][3]  ( .D(n5136), .E(n2732), .CK(clk), .Q(\img[3][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1636|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][3]  ( .D(n5155), .E(n2155), .CK(clk), .Q(\img[22][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1637|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][3]  ( .D(n5160), .E(n2003), .CK(clk), .Q(\img[27][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1639|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][3]  ( .D(n5151), .E(n2275), .CK(clk), .Q(\img[18][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1641|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[58][2]  ( .D(n5255), .E(n1057), .CK(clk), .Q(\img[58][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1643|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][3]  ( .D(n5156), .E(n2123), .CK(clk), .Q(\img[23][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1645|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][3]  ( .D(n5152), .E(n2245), .CK(clk), .Q(\img[19][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1647|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[59][2]  ( .D(n5256), .E(n1025), .CK(clk), .Q(\img[59][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1649|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][3]  ( .D(n5178), .E(n1457), .CK(clk), .Q(\img[45][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1651|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[26][2]  ( .D(n5223), .E(n2033), .CK(clk), .Q(\img[26][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1653|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][3]  ( .D(n5174), .E(n1577), .CK(clk), .Q(\img[41][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1655|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][0]  ( .D(n5326), .E(n2792), .CK(clk), .Q(\img[1][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1657|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[27][2]  ( .D(n5224), .E(n2003), .CK(clk), .Q(\img[27][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1658|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][3]  ( .D(n5177), .E(n1487), .CK(clk), .Q(\img[44][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1660|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][0]  ( .D(n5330), .E(n2670), .CK(clk), .Q(\img[5][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1662|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][3]  ( .D(n5170), .E(n1700), .CK(clk), .Q(\img[37][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1663|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][3]  ( .D(n5173), .E(n1607), .CK(clk), .Q(\img[40][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1665|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][3]  ( .D(n5194), .E(n961), .CK(clk), .Q(\img[61][3] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1667|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][0]  ( .D(n5342), .E(n2305), .CK(clk), .Q(\img[17][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1668|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][0]  ( .D(n5334), .E(n2546), .CK(clk), .Q(\img[9][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1670|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][0]  ( .D(n5338), .E(n2426), .CK(clk), .Q(\img[13][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1671|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][3]  ( .D(n5166), .E(n1820), .CK(clk), .Q(\img[33][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1673|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[10][2]  ( .D(n5207), .E(n2516), .CK(clk), .Q(\img[10][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1675|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][2]  ( .D(n5254), .E(n1089), .CK(clk), .Q(\img[57][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1677|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][3]  ( .D(n5169), .E(n1730), .CK(clk), .Q(\img[36][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1679|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[57][3]  ( .D(n5190), .E(n1089), .CK(clk), .Q(\img[57][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1681|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][0]  ( .D(n5346), .E(n2185), .CK(clk), .Q(\img[21][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1683|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][0]  ( .D(n5325), .E(n2890), .CK(clk), .Q(\img[0][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1685|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][3]  ( .D(n5193), .E(n993), .CK(clk), .Q(\img[60][3] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1686|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[6][2]  ( .D(n5203), .E(n2639), .CK(clk), .Q(\img[6][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1687|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[62][2]  ( .D(n5259), .E(n929), .CK(clk), .Q(\img[62][2] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1688|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[11][2]  ( .D(n5208), .E(n2486), .CK(clk), .Q(\img[11][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1689|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][3]  ( .D(n5146), .E(n2426), .CK(clk), .Q(\img[13][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1691|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][0]  ( .D(n5350), .E(n2063), .CK(clk), .Q(\img[25][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1693|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][3]  ( .D(n5165), .E(n1850), .CK(clk), .Q(\img[32][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1695|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[22][2]  ( .D(n5219), .E(n2155), .CK(clk), .Q(\img[22][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1697|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][0]  ( .D(n5354), .E(n1943), .CK(clk), .Q(\img[29][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1699|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][2]  ( .D(n5253), .E(n1120), .CK(clk), .Q(\img[56][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1701|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][3]  ( .D(n5186), .E(n1214), .CK(clk), .Q(\img[53][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1703|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[7][2]  ( .D(n5204), .E(n2607), .CK(clk), .Q(\img[7][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1705|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[56][3]  ( .D(n5189), .E(n1120), .CK(clk), .Q(\img[56][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1706|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][0]  ( .D(n5329), .E(n2701), .CK(clk), .Q(\img[4][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1708|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[63][2]  ( .D(n5260), .E(n896), .CK(clk), .Q(\img[63][2] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1709|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][3]  ( .D(n5142), .E(n2546), .CK(clk), .Q(\img[9][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1710|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[46][2]  ( .D(n5243), .E(n1427), .CK(clk), .Q(\img[46][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1711|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[14][2]  ( .D(n5211), .E(n2396), .CK(clk), .Q(\img[14][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1713|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][0]  ( .D(n5341), .E(n2335), .CK(clk), .Q(\img[16][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1715|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][3]  ( .D(n5145), .E(n2456), .CK(clk), .Q(\img[12][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1717|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[23][2]  ( .D(n5220), .E(n2123), .CK(clk), .Q(\img[23][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1719|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][0]  ( .D(n5333), .E(n2576), .CK(clk), .Q(\img[8][0] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1721|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][3]  ( .D(n5182), .E(n1334), .CK(clk), .Q(\img[49][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1722|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][3]  ( .D(n5162), .E(n1943), .CK(clk), .Q(\img[29][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1724|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][0]  ( .D(n5337), .E(n2456), .CK(clk), .Q(\img[12][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1726|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][3]  ( .D(n5138), .E(n2670), .CK(clk), .Q(\img[5][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1728|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][3]  ( .D(n5185), .E(n1244), .CK(clk), .Q(\img[52][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1729|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[47][2]  ( .D(n5244), .E(n1395), .CK(clk), .Q(\img[47][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1731|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[42][2]  ( .D(n5239), .E(n1547), .CK(clk), .Q(\img[42][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1733|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[15][2]  ( .D(n5212), .E(n2365), .CK(clk), .Q(\img[15][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1735|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][2]  ( .D(n5222), .E(n2063), .CK(clk), .Q(\img[25][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1737|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][3]  ( .D(n5141), .E(n2576), .CK(clk), .Q(\img[8][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1739|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][0]  ( .D(n5345), .E(n2215), .CK(clk), .Q(\img[20][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1740|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][3]  ( .D(n5134), .E(n2792), .CK(clk), .Q(\img[1][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1742|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[54][2]  ( .D(n5251), .E(n1184), .CK(clk), .Q(\img[54][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1743|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[25][3]  ( .D(n5158), .E(n2063), .CK(clk), .Q(\img[25][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1745|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][3]  ( .D(n5181), .E(n1364), .CK(clk), .Q(\img[48][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1747|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][0]  ( .D(n5349), .E(n2093), .CK(clk), .Q(\img[24][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1749|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][3]  ( .D(n5161), .E(n1973), .CK(clk), .Q(\img[28][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1751|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[43][2]  ( .D(n5240), .E(n1517), .CK(clk), .Q(\img[43][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1753|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][3]  ( .D(n5137), .E(n2701), .CK(clk), .Q(\img[4][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1755|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][0]  ( .D(n5353), .E(n1973), .CK(clk), .Q(\img[28][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1756|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[38][2]  ( .D(n5235), .E(n1670), .CK(clk), .Q(\img[38][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1758|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[55][2]  ( .D(n5252), .E(n1152), .CK(clk), .Q(\img[55][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1760|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[2][2]  ( .D(n5199), .E(n2762), .CK(clk), .Q(\img[2][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1762|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][3]  ( .D(n5154), .E(n2185), .CK(clk), .Q(\img[21][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1763|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][2]  ( .D(n5227), .E(n1913), .CK(clk), .Q(\img[30][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1765|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][2]  ( .D(n5221), .E(n2093), .CK(clk), .Q(\img[24][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1767|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][3]  ( .D(n5133), .E(n2890), .CK(clk), .Q(\img[0][3] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1769|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[24][3]  ( .D(n5157), .E(n2093), .CK(clk), .Q(\img[24][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1770|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][3]  ( .D(n5150), .E(n2305), .CK(clk), .Q(\img[17][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1772|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[39][2]  ( .D(n5236), .E(n1638), .CK(clk), .Q(\img[39][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1774|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[50][2]  ( .D(n5247), .E(n1304), .CK(clk), .Q(\img[50][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1776|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[3][2]  ( .D(n5200), .E(n2732), .CK(clk), .Q(\img[3][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1778|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][2]  ( .D(n5228), .E(n1881), .CK(clk), .Q(\img[31][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1779|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[34][2]  ( .D(n5231), .E(n1790), .CK(clk), .Q(\img[34][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1781|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][3]  ( .D(n5153), .E(n2215), .CK(clk), .Q(\img[20][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1783|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[51][2]  ( .D(n5248), .E(n1274), .CK(clk), .Q(\img[51][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1785|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][3]  ( .D(n5149), .E(n2335), .CK(clk), .Q(\img[16][3] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1787|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[35][2]  ( .D(n5232), .E(n1760), .CK(clk), .Q(\img[35][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1789|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[5][2]  ( .D(n5202), .E(n2670), .CK(clk), .Q(\img[5][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1791|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[18][2]  ( .D(n5215), .E(n2275), .CK(clk), .Q(\img[18][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1792|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[4][2]  ( .D(n5201), .E(n2701), .CK(clk), .Q(\img[4][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1794|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[19][2]  ( .D(n5216), .E(n2245), .CK(clk), .Q(\img[19][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1795|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[13][2]  ( .D(n5210), .E(n2426), .CK(clk), .Q(\img[13][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1797|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[12][2]  ( .D(n5209), .E(n2456), .CK(clk), .Q(\img[12][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1799|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[61][2]  ( .D(n5258), .E(n961), .CK(clk), .Q(\img[61][2] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1801|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[60][2]  ( .D(n5257), .E(n993), .CK(clk), .Q(\img[60][2] ) );
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1802|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[45][2]  ( .D(n5242), .E(n1457), .CK(clk), .Q(\img[45][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1803|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[21][2]  ( .D(n5218), .E(n2185), .CK(clk), .Q(\img[21][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1805|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[53][2]  ( .D(n5250), .E(n1214), .CK(clk), .Q(\img[53][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1807|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[9][2]  ( .D(n5206), .E(n2546), .CK(clk), .Q(\img[9][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1809|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[41][2]  ( .D(n5238), .E(n1577), .CK(clk), .Q(\img[41][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1810|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[44][2]  ( .D(n5241), .E(n1487), .CK(clk), .Q(\img[44][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1812|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[20][2]  ( .D(n5217), .E(n2215), .CK(clk), .Q(\img[20][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1814|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[49][2]  ( .D(n5246), .E(n1334), .CK(clk), .Q(\img[49][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1816|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[52][2]  ( .D(n5249), .E(n1244), .CK(clk), .Q(\img[52][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1818|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[37][2]  ( .D(n5234), .E(n1700), .CK(clk), .Q(\img[37][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1820|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[8][2]  ( .D(n5205), .E(n2576), .CK(clk), .Q(\img[8][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1822|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[40][2]  ( .D(n5237), .E(n1607), .CK(clk), .Q(\img[40][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1823|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[33][2]  ( .D(n5230), .E(n1820), .CK(clk), .Q(\img[33][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1825|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[48][2]  ( .D(n5245), .E(n1364), .CK(clk), .Q(\img[48][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1827|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[36][2]  ( .D(n5233), .E(n1730), .CK(clk), .Q(\img[36][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1829|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[1][2]  ( .D(n5198), .E(n2792), .CK(clk), .Q(\img[1][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1831|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[29][2]  ( .D(n5226), .E(n1943), .CK(clk), .Q(\img[29][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1832|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[32][2]  ( .D(n5229), .E(n1850), .CK(clk), .Q(\img[32][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1834|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[0][2]  ( .D(n5197), .E(n2890), .CK(clk), .Q(\img[0][2] ) );
+                       |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1836|23): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[17][2]  ( .D(n5214), .E(n2305), .CK(clk), .Q(\img[17][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1837|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[28][2]  ( .D(n5225), .E(n1973), .CK(clk), .Q(\img[28][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1839|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[16][2]  ( .D(n5213), .E(n2335), .CK(clk), .Q(\img[16][2] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1841|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[31][0]  ( .D(n5356), .E(n1881), .CK(clk), .Q(\img[31][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1848|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  EDFFX1 \img_reg[30][0]  ( .D(n5355), .E(n1913), .CK(clk), .Q(\img[30][0] )
+                        |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,1850|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,19637): QN
+
+  LCD_CTRL_DW01_add_2 add_2_root_add_0_root_add_45_3 ( .A({1'b0, 1'b0, N3220, 
+                                                   |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,8344|51): 1 output port was not connected:
+ncelab: (./LCD_CTRL_syn.v,8): CO
+
+  LCD_CTRL_DW01_add_1 add_1_root_add_0_root_add_45_3 ( .A({1'b0, N2971, N2970, 
+                                                   |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,8349|51): 1 output port was not connected:
+ncelab: (./LCD_CTRL_syn.v,34): CO
+
+  LCD_CTRL_DW01_add_0 add_0_root_add_0_root_add_45_3 ( .A({1'b0, 1'b0, n4683, 
+                                                   |
+ncelab: *W,CUVWSP (./LCD_CTRL_syn.v,8354|51): 1 output port was not connected:
+ncelab: (./LCD_CTRL_syn.v,63): CO
+
+	Reading SDF file from location "./LCD_CTRL_syn.sdf"
+	Annotating SDF timing data:
+		Compiled SDF file:     LCD_CTRL_syn.sdf.X
+		Log file:              
+		Backannotation scope:  test.LCD_CTRL
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U3 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17941>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U3 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17942>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U3 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17945>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U3 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17946>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U2 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17957>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U2 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17958>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U2 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17961>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U2 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 17962>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 17992>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 17993>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 17998>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 17999>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18002>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18003>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_5 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18023>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_5 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18024>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_5 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18029>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_5 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18030>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_5 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18033>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_5 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18034>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_4 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18054>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_4 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18055>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_4 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18060>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_4 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18061>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_4 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18064>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_4 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18065>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_7 of module ADDFHX4 <./LCD_CTRL_syn.sdf, line 18085>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_7 of module ADDFHX4 <./LCD_CTRL_syn.sdf, line 18086>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_7 of module ADDFHX4 <./LCD_CTRL_syn.sdf, line 18091>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_7 of module ADDFHX4 <./LCD_CTRL_syn.sdf, line 18092>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_7 of module ADDFHX4 <./LCD_CTRL_syn.sdf, line 18095>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_7 of module ADDFHX4 <./LCD_CTRL_syn.sdf, line 18096>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_6 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18116>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_6 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18117>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_6 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18122>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_6 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18123>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_6 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18126>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_6 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18127>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_2 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18147>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_2 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18148>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_2 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18153>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_2 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18154>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_2 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18157>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_0_root_add_0_root_add_45_3.U1_2 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18158>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U4 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18169>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U4 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18170>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U4 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18173>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U4 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18174>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 18205>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 18206>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 18209>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1 of module XOR2X4 <./LCD_CTRL_syn.sdf, line 18210>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_4 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18230>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_4 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18231>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_4 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18236>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_4 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18237>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_4 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18240>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_4 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18241>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_2 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18261>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_2 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18262>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_2 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18267>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_2 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18268>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_2 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18271>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_2 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18272>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_6 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18292>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_6 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18293>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_6 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18298>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_6 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18299>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_6 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18302>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_6 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18303>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_3 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18323>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_3 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18324>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_3 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18329>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_3 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18330>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_3 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18333>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_3 of module ADDFHX2 <./LCD_CTRL_syn.sdf, line 18334>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_1 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18354>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_1 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18355>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_1 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18360>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_1 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18361>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_1 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18364>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_1 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18365>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_5 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18385>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_5 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18386>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_5 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18391>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_5 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18392>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_5 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18395>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_5 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18396>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18416>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18417>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18422>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18423>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18426>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_1_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18427>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U2 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18438>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U2 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18439>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U2 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18442>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U2 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18443>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_2 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18473>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_2 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18474>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_2 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18479>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_2 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18480>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_2 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18483>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_2 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18484>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18504>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18505>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18510>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18511>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18514>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_7 of module ADDFX2 <./LCD_CTRL_syn.sdf, line 18515>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18535>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18536>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18541>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18542>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18545>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_3 of module ADDFHX1 <./LCD_CTRL_syn.sdf, line 18546>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_4 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18566>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_4 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18567>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_4 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18572>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_4 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18573>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_4 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18576>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_4 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18577>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_1 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18597>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_1 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18598>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_1 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18603>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_1 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18604>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_1 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18607>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_1 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18608>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_5 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18628>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_5 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18629>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_5 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18634>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_5 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18635>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_5 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18638>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_5 of module ADDFX1 <./LCD_CTRL_syn.sdf, line 18639>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_6 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18659>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_6 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18660>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_6 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18665>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_6 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18666>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_6 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18669>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance test.LCD_CTRL.add_2_root_add_0_root_add_45_3.U1_6 of module CMPR32X2 <./LCD_CTRL_syn.sdf, line 18670>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.U7590 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18747>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.U7590 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18748>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.U7590 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18751>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.U7590 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18752>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.U7582 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18841>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.U7582 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18842>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.U7582 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18845>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.U7582 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 18846>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.U6643 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30312>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.U6643 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30313>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.U6643 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30316>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.U6643 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30317>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.U6642 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30330>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.U6642 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30331>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.U6642 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30334>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.U6642 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30335>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.U6641 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30348>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.U6641 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30349>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.U6641 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30352>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.U6641 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30353>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test.LCD_CTRL.U6640 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30366>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test.LCD_CTRL.U6640 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30367>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test.LCD_CTRL.U6640 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30370>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test.LCD_CTRL.U6640 of module ADDHXL <./LCD_CTRL_syn.sdf, line 30371>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.U4378 of module XOR2XL <./LCD_CTRL_syn.sdf, line 56779>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.U4378 of module XOR2XL <./LCD_CTRL_syn.sdf, line 56780>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.U4378 of module XOR2XL <./LCD_CTRL_syn.sdf, line 56783>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.U4378 of module XOR2XL <./LCD_CTRL_syn.sdf, line 56784>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.U4173 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58841>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.U4173 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58842>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.U4173 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58845>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.U4173 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58846>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.U4172 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58857>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.U4172 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58858>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.U4172 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58861>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.U4172 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 58862>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.U4004 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 60448>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.U4004 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 60449>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.U4004 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 60452>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.U4004 of module XOR2X2 <./LCD_CTRL_syn.sdf, line 60453>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test.LCD_CTRL.U3541 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 64967>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test.LCD_CTRL.U3541 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 64968>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test.LCD_CTRL.U3541 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 64971>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test.LCD_CTRL.U3541 of module XOR2X1 <./LCD_CTRL_syn.sdf, line 64972>.
+	Annotation completed with 0 Errors and 184 Warnings
+	SDF statistics: No. of Pathdelays = 17565  Annotated = 100.00% -- No. of Tchecks = 3120  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	       17565	       17565	      100.00
+		      $width	        1048	        1048	      100.00
+		  $setuphold	        2072	        2072	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.IRAM:v <0x329e38cb>
+			streams:   3, words:  1677
+		worklib.IROM:v <0x62bdee1f>
+			streams:   3, words:  1511
+		worklib.LCD_CTRL:v <0x13495c18>
+			streams:   0, words:     0
+		worklib.test:v <0x13dbfbfd>
+			streams:  10, words: 11209
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                  5405     165
+		UDPs:                      522       2
+		Primitives:              12577       7
+		Timing outputs:           5938      36
+		Registers:                 540      26
+		Scalar wires:             6472       -
+		Expanded wires:             12       2
+		Always blocks:               4       4
+		Initial blocks:              9       9
+		Pseudo assignments:          1       1
+		Timing checks:            5192     655
+		Interconnect:            17799       -
+		Delayed tcheck signals:   1560     587
+		Simulation timescale:      1ps
+	Writing initial simulation snapshot: worklib.test:v
+Loading snapshot worklib.test:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux x86_64/64bit, 02/09/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'LCD_CTRL.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+All data have been generated successfully!
+
+-------------------PASS-------------------
+
+Simulation complete via $finish(1) at time 2237667 PS + 0
+./testfixture.v:148 		    #10 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 15, 2022 at 00:40:07 CST  (total: 00:00:02)

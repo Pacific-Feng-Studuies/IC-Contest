@@ -1,0 +1,20 @@
+read_file -type verilog Full_Permutation.v
+
+
+current_goal lint/lint_rtl -alltop
+run_goal
+current_goal lint/lint_turbo_rtl -alltop
+run_goal
+current_goal lint/lint_functional_rtl -alltop
+run_goal
+current_goal lint/lint_abstract -alltop
+run_goal
+current_goal lint/lint_rtl -alltop
+
+
+
+
+
+
+
+

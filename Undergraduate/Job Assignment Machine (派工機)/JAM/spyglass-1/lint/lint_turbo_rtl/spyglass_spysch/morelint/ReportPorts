@@ -1,0 +1,14 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@rst@@INPUT@@0@@0@@-@@Full_Permutation@@No
+VALUE@@clk@@INPUT@@0@@0@@-@@Full_Permutation@@No
+VALUE@@ns@@INPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out0@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out1@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out2@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out3@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out4@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out5@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out6@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@out7@@OUTPUT@@2@@0@@-@@Full_Permutation@@No
+VALUE@@fin_one@@OUTPUT@@0@@0@@-@@Full_Permutation@@No
+VALUE@@fin_per@@OUTPUT@@0@@0@@-@@Full_Permutation@@No

@@ -1,0 +1,18 @@
+
+FTP account:                       E22020
+
+Level:                             A
+cycle:                             553116
+Synthesis area:                    9563.151596
+
+--- RTL category---
+HDL simulator :                    ncverilog 
+RTL filename :                     JAM.v            
+
+--- Pre-layout gate-level ---
+gate-levelfilename:                JAM_syn.v  
+gate-level sdf filename:           JAM_syn.sdf        
+
+-----(annotation)--------------------------------------------------------
+ compile ultra
+ 有一子MODULE Full_Permutation.v

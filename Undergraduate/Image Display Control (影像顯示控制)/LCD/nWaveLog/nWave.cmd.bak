@@ -1,0 +1,146 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 {/home/B073011012/MF_Hsieh/LCD/LCD_CTRL.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/test"
+wvGetSignalSetScope -win $_nWave1 "/test/LCD_CTRL"
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/test/LCD_CTRL/IRAM_A\[5:0\]} \
+{/test/LCD_CTRL/IRAM_D\[7:0\]} \
+{/test/LCD_CTRL/IRAM_valid} \
+{/test/LCD_CTRL/IROM_A\[5:0\]} \
+{/test/LCD_CTRL/IROM_Q\[7:0\]} \
+{/test/LCD_CTRL/IROM_rd} \
+{/test/LCD_CTRL/busy} \
+{/test/LCD_CTRL/clk} \
+{/test/LCD_CTRL/cmd\[3:0\]} \
+{/test/LCD_CTRL/cmd_valid} \
+{/test/LCD_CTRL/cs\[3:0\]} \
+{/test/LCD_CTRL/done} \
+{/test/LCD_CTRL/img\[0:63\]} \
+{/test/LCD_CTRL/pos_x\[2:0\]} \
+{/test/LCD_CTRL/pos_y\[2:0\]} \
+{/test/LCD_CTRL/reset} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 )} \
+           
+wvSetPosition -win $_nWave1 {("G1" 16)}
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 16 )} 
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSelectSignal -win $_nWave1 {( "G1" 9 )} 
+wvSetPosition -win $_nWave1 {("G1" 9)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 59719.819820 69106.306306
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 73519.082460 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 75526.042934 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 77555.553526 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 80501.162649 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 79565.332765 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 81391.892297 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 83455.228066 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 85436.819657 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 87421.230013 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 89495.840840 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 87635.456131 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 89439.465546 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 91626.826962 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 84038.712361 -snap {("G1" 10)}
+wvSetCursor -win $_nWave1 85470.644834 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 89969.393312 -snap {("G1" 10)}
+wvSelectSignal -win $_nWave1 {( "G1" 12 )} 
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/test/LCD_CTRL/reset} \
+{/test/LCD_CTRL/clk} \
+{/test/LCD_CTRL/ns\[3:0\]} \
+{/test/LCD_CTRL/IRAM_A\[5:0\]} \
+{/test/LCD_CTRL/IRAM_D\[7:0\]} \
+{/test/LCD_CTRL/IRAM_valid} \
+{/test/LCD_CTRL/IROM_A\[5:0\]} \
+{/test/LCD_CTRL/IROM_Q\[7:0\]} \
+{/test/LCD_CTRL/IROM_rd} \
+{/test/LCD_CTRL/busy} \
+{/test/LCD_CTRL/cmd\[3:0\]} \
+{/test/LCD_CTRL/cmd_valid} \
+{/test/LCD_CTRL/cs\[3:0\]} \
+{/test/LCD_CTRL/done} \
+{/test/LCD_CTRL/img\[0:63\]} \
+{/test/LCD_CTRL/pos_x\[2:0\]} \
+{/test/LCD_CTRL/pos_y\[2:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 11)}
+wvSetPosition -win $_nWave1 {("G1" 13)}
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 12)}
+wvSelectSignal -win $_nWave1 {( "G1" 12 13 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 12 13 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSelectSignal -win $_nWave1 {( "G1" 10 12 13 )} 
+wvSetCursor -win $_nWave1 88030.083191 -snap {("G1" 10)}
+wvSetCursor -win $_nWave1 88492.360603 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 89552.216135 -snap {("G1" 13)}
+wvSetCursor -win $_nWave1 90341.470254 -snap {("G1" 13)}
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 10 )} 
+wvSetRadix -win $_nWave1 -format Bin
+wvSetOptions -win $_nWave1 -leadingZeros on
+wvSetCursor -win $_nWave1 89969.393312 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 90454.220842 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 91457.701079 -snap {("G1" 13)}
+wvSetCursor -win $_nWave1 93081.309552 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 87872.232367 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 86981.502719 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 85797.621540 -snap {("G1" 12)}
+wvSetCursor -win $_nWave1 84512.264832 -snap {("G1" 12)}
+wvZoom -win $_nWave1 89969.393312 90149.794253
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1

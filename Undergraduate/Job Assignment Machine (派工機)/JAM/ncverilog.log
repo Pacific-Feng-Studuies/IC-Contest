@@ -1,0 +1,271 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Mar 30, 2022 at 15:57:51 CST
+ncverilog
+	-sv
+	tb.sv
+	JAM_syn.v
+	-v
+	tsmc13.v
+	+define+P1
+	+define+SDF
+file: tb.sv
+	module worklib.testfixture:sv
+		errors: 0, warnings: 0
+file: JAM_syn.v
+	module worklib.JAM:v
+		errors: 0, warnings: 0
+		Caching library 'tsmc13' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  DFFRX1 start_reg ( .D(start_temp), .CK(CLK), .RN(n1615), .Q(start) );
+                 |
+ncelab: *W,CUVWSP (./JAM_syn.v,165|17): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \add_reg[6]  ( .D(n799), .CK(CLK), .RN(n1615), .Q(add[6]) );
+                    |
+ncelab: *W,CUVWSP (./JAM_syn.v,166|20): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \add_reg[8]  ( .D(n806), .CK(CLK), .RN(n1614), .Q(add[8]) );
+                    |
+ncelab: *W,CUVWSP (./JAM_syn.v,167|20): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \add_reg[9]  ( .D(n797), .CK(CLK), .RN(n1614), .Q(add[9]) );
+                    |
+ncelab: *W,CUVWSP (./JAM_syn.v,168|20): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \add_reg[1]  ( .D(n804), .CK(CLK), .RN(n1614), .Q(add[1]) );
+                    |
+ncelab: *W,CUVWSP (./JAM_syn.v,169|20): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \state_reg[0]  ( .D(\next_state[0] ), .CK(CLK), .RN(n1615), .Q(
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,170|22): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \f1/cur_ans5_reg[2]  ( .D(n788), .CK(CLK), .RN(n1614), .Q(ser[17]) );
+                            |
+ncelab: *W,CUVWSP (./JAM_syn.v,174|28): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \f1/cur_ans7_reg[0]  ( .D(n790), .CK(CLK), .RN(n1614), .Q(ser[21]) );
+                            |
+ncelab: *W,CUVWSP (./JAM_syn.v,179|28): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+  DFFRX1 \J_reg[2]  ( .D(next_J[2]), .CK(CLK), .RN(n1614), .QN(n827) );
+                  |
+ncelab: *W,CUVWSP (./JAM_syn.v,207|18): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): Q
+
+  DFFRX1 \J_reg[1]  ( .D(next_J[1]), .CK(CLK), .RN(n1614), .QN(n825) );
+                  |
+ncelab: *W,CUVWSP (./JAM_syn.v,208|18): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): Q
+
+  DFFRX1 \J_reg[0]  ( .D(next_J[0]), .CK(CLK), .RN(n1614), .QN(n823) );
+                  |
+ncelab: *W,CUVWSP (./JAM_syn.v,209|18): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): Q
+
+  DFFRX1 \W_reg[0]  ( .D(next_W[0]), .CK(CLK), .RN(n1614), .QN(n817) );
+                  |
+ncelab: *W,CUVWSP (./JAM_syn.v,214|18): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): Q
+
+  DFFRX1 \W_reg[2]  ( .D(next_W[2]), .CK(CLK), .RN(n1614), .QN(n1598) );
+                  |
+ncelab: *W,CUVWSP (./JAM_syn.v,215|18): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): Q
+
+  DFFRX1 \MinCost_reg[8]  ( .D(n1567), .CK(CLK), .RN(n1614), .Q(n1595) );
+                        |
+ncelab: *W,CUVWSP (./JAM_syn.v,218|24): 1 output port was not connected:
+ncelab: (./tsmc13.v,18240): QN
+
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Reading SDF file from location "./JAM_syn.sdf"
+        .MinCost(MinCost),
+                       |
+ncelab: *W,CUVMPW (./tb.sv,40|23): port sizes differ in port connection (9/10).
+	Annotating SDF timing data:
+		Compiled SDF file:     JAM_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testfixture.u_JAM
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 2896  Annotated = 100.00% -- No. of Tchecks = 390  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        2896	        2896	      100.00
+		      $width	         195	         195	      100.00
+		  $setuphold	         195	         195	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.testfixture:sv <0x57d095ea>
+			streams:  12, words: 28011
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  868     102
+		UDPs:                      65       1
+		Primitives:              2019       7
+		Timing outputs:           926      22
+		Registers:                 91      31
+		Scalar wires:             994       -
+		Expanded wires:             7       1
+		Vectored wires:             1       -
+		Always blocks:              3       3
+		Initial blocks:             8       8
+		Cont. assignments:          1       1
+		Pseudo assignments:         1       1
+		Timing checks:            585      84
+		Interconnect:            2747       -
+		Delayed tcheck signals:   195      59
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.testfixture:sv
+Loading snapshot worklib.testfixture:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux x86_64/64bit, 02/09/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'JAM.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.charcount(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.freturn(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.patnum(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.CLK(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.RST(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.Cost(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cycle(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.costrom(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.key_value(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v0(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v1(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v2(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v3(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v4(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v5(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v6(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v7(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.worker(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.i(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.j(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.goldMatchCount(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.goldMinCost(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.wait_valid(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.Valid(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.W(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.J(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.MatchCount(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.MinCost(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.W(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.J(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.Cost(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.MatchCount(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.MinCost(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.CLK(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.RST(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.Valid(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1616(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1617(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1618(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1619(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1620(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1621(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1622(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1623(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1624(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1625(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1626(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1627(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1628(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n1629(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.\next_state[0] (36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.start(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.start_temp(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n758(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n759(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n760(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n761(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n762(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n763(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n764(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n765(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n766(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n767(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n769(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n770(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n771(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n773(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n774(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n775(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n776(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n777(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n778(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n779(36)
+*Verdi* WARNING: The above messages are printed 50 times. No more similar message will be printed out.
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.u_JAM.n780(36)
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.charcount(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.freturn(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.patnum(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.CLK(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.RST(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.Cost(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.cycle(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.costrom(116)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.key_value(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v0(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v1(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v2(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v3(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v4(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v5(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v6(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.v7(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.worker(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.i(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.j(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.goldMatchCount(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.goldMinCost(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:testfixture.wait_valid(48)
+*Verdi* : End of traversing the MDAs.
+*******************************
+** Simulation Start          **
+*******************************
+PATTERN:   1
+-------------- Cost Table --------------
+Jobs       0   1   2   3   4   5   6   7
+worker0:  11  25  53  41  59  32  25  59
+worker1:   4  11  25  11  59  31  53  11
+worker2:  11  59  15  11  15  15  53  53
+worker3:   4  59  32  34  53  41  34  59
+worker4:  15  32  41  34   4  59  34  32
+worker5:  41  59  59   4   4  41  34  34
+worker6:  53  31  25  41  59  32  31  53
+worker7:  11  31  25  11  34  34  53  32
+----------------------------------------------------------------------
+Get Valid at cycle:    553116
+receive MinCost/MatchCount= 119/ 3 , golden MinCost/MatchCount= 119/ 3
+----------------------------------------------------------------------
+*************************
+**  FUNCTION  CORRECT  **
+*************************
+
+Simulation complete via $finish(1) at time 5531155 NS + 0
+./tb.sv:180                 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 30, 2022 at 15:58:01 CST  (total: 00:00:10)

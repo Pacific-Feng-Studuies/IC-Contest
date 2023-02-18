@@ -1,0 +1,75 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : JAM
+Version: R-2020.09
+Date   : Wed Mar 30 15:49:42 2022
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: f1/cur_ans6_reg[1]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: f1/cur_ans6_reg[0]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  JAM                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  f1/cur_ans6_reg[1]/CK (DFFRX4)           0.00       0.50 r
+  f1/cur_ans6_reg[1]/QN (DFFRX4)           0.81       1.31 r
+  U1128/Y (NOR2X1)                         0.36       1.67 f
+  U1245/Y (OAI22X2)                        0.31       1.98 r
+  U1246/Y (OAI22X4)                        0.28       2.25 f
+  U1031/Y (OAI2BB2XL)                      0.55       2.81 r
+  U1030/Y (NOR2X2)                         0.35       3.16 f
+  U1040/Y (AOI2BB2X1)                      0.43       3.59 f
+  U1390/Y (AOI22X1)                        0.51       4.11 r
+  U1392/Y (AOI222X1)                       0.40       4.50 f
+  U1396/Y (OAI21X4)                        0.38       4.89 r
+  U1058/Y (OAI2BB2X1)                      0.27       5.16 r
+  U857/Y (CLKBUFX3)                        0.28       5.45 r
+  U1399/Y (OAI222X2)                       0.26       5.70 f
+  U1401/Y (OAI222X1)                       0.40       6.11 r
+  U1402/Y (INVX3)                          0.15       6.26 f
+  U1404/Y (OAI22X4)                        0.31       6.57 r
+  U927/Y (NAND2X2)                         0.18       6.76 f
+  U1004/Y (OAI22X4)                        0.35       7.11 r
+  U1071/Y (CLKINVX1)                       0.54       7.65 f
+  U1409/Y (AOI222X1)                       0.54       8.20 r
+  U926/Y (OAI211X2)                        0.27       8.46 f
+  U1412/Y (AO22X4)                         0.28       8.74 f
+  U1413/Y (AOI211X1)                       0.30       9.04 r
+  U895/Y (OAI21X1)                         0.20       9.24 f
+  U894/Y (AOI211X4)                        0.50       9.75 r
+  U888/Y (OAI22X1)                         0.17       9.92 f
+  U940/Y (AOI211X2)                        0.26      10.18 r
+  U1419/Y (OAI21X2)                        0.14      10.32 f
+  f1/cur_ans6_reg[0]/D (DFFRX4)            0.00      10.32 f
+  data arrival time                                  10.32
+
+  clock CLK (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  f1/cur_ans6_reg[0]/CK (DFFRX4)           0.00      10.40 r
+  library setup time                      -0.06      10.34
+  data required time                                 10.34
+  -----------------------------------------------------------
+  data required time                                 10.34
+  data arrival time                                 -10.32
+  -----------------------------------------------------------
+  slack (MET)                                         0.02
+
+
+1

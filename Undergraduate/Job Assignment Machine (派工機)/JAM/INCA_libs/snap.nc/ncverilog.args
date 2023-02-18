@@ -1,0 +1,11 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-sv
+tb.sv
+JAM_syn.v
+-v
+tsmc13.v
++define+P1
++define+SDF

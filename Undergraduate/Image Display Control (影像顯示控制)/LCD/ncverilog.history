@@ -1,0 +1,41 @@
+s1(13Apr2022:13:13:19):  ncverilog LCD_CTRL.v 
+s2(13Apr2022:13:14:52):  ncverilog LCD_CTRL.v 
+s3(13Apr2022:13:14:55):  ncverilog LCD_CTRL.v 
+s4(13Apr2022:13:16:18):  ncverilog LCD_CTRL.v 
+s5(13Apr2022:13:17:46):  ncverilog LCD_CTRL.v 
+s6(13Apr2022:13:19:07):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r 
+s7(14Apr2022:13:43:57):  ncverilog LCD_CTRL.v 
+s8(14Apr2022:13:45:07):  ncverilog LCD_CTRL.v 
+s9(14Apr2022:13:46:09):  ncverilog LCD_CTRL.v 
+s10(14Apr2022:13:47:18):  ncverilog LCD_CTRL.v 
+s11(14Apr2022:13:47:23):  ncverilog LCD_CTRL.v 
+s12(14Apr2022:13:47:57):  ncverilog LCD_CTRL.v 
+s13(14Apr2022:13:48:04):  ncverilog LCD_CTRL.v 
+s14(14Apr2022:13:48:13):  ncverilog LCD_CTRL.v 
+s15(14Apr2022:13:48:37):  ncverilog LCD_CTRL.v 
+s16(14Apr2022:13:48:47):  ncverilog LCD_CTRL.v 
+s17(14Apr2022:13:49:27):  ncverilog LCD_CTRL.v 
+s18(14Apr2022:13:53:28):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r 
+s19(14Apr2022:14:59:23):  ncverilog LCD_CTRL.v 
+s20(14Apr2022:14:59:41):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r 
+s21(14Apr2022:15:08:25):  ncverilog LCD_CTRL.v 
+s22(14Apr2022:15:08:33):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r 
+s23(14Apr2022:15:08:40):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s24(14Apr2022:16:26:03):  ncverilog LCD_CTRL.v 
+s25(14Apr2022:16:26:06):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s26(14Apr2022:16:26:23):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r 
+s27(14Apr2022:16:26:27):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s28(14Apr2022:16:31:24):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s29(14Apr2022:16:32:21):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s30(14Apr2022:16:38:32):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s31(14Apr2022:16:47:03):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s32(14Apr2022:16:48:38):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s33(14Apr2022:16:48:48):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s34(14Apr2022:16:53:24):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s35(14Apr2022:16:53:30):  ncverilog testfixture.v LCD_CTRL.v +define+tb3 +access+r 
+s36(14Apr2022:16:57:40):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r 
+s37(15Apr2022:00:34:48):  ncverilog LCD_CTRL.v 
+s38(15Apr2022:00:35:55):  ncverilog LCD_CTRL.v 
+s39(15Apr2022:00:39:47):  ncverilog testfixture.v LCD_CTRL_syn.v -v tsmc13.v +define+SDF +define+tb1 +access+r 
+s40(15Apr2022:00:39:58):  ncverilog testfixture.v LCD_CTRL_syn.v -v tsmc13.v +define+SDF +define+tb2 +access+r 
+s41(15Apr2022:00:40:05):  ncverilog testfixture.v LCD_CTRL_syn.v -v tsmc13.v +define+SDF +define+tb3 +access+r 
